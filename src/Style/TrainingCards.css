@@ -1,0 +1,78 @@
+/* Container styles */
+.training-container {
+    display: flex;
+    flex-wrap: nowrap; 
+    justify-content: space-between; 
+    gap: 0; 
+    padding: 20px;
+    overflow-x: auto; 
+  }
+  
+  .training-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;  
+    height: 250px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 0 10px; 
+  }
+  
+  .training-card:hover {
+    transform: scale(1.05);
+  }
+  
+  
+  .training-icon {
+    font-size: 3.5rem; 
+    color: #ff8c00;
+    margin-bottom: 10px;
+  }
+  
+  
+  .training-title {
+    font-size: 1.2rem; 
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .training-card {
+      width: 250px; /* Adjust width for smaller screens */
+      height: 220px; /* Adjust height */
+    }
+  
+    .training-icon {
+      font-size: 3rem;
+    }
+  
+    .training-title {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .training-container {
+      overflow-x: auto; /* Ensure horizontal scrolling on small screens */
+    }
+  
+    .training-card {
+      width: 220px; /* Smaller cards for mobile */
+      height: 200px;
+    }
+  
+    .training-icon {
+      font-size: 2.5rem;
+    }
+  
+    .training-title {
+      font-size: 0.9rem;
+    }
+  }

@@ -1,0 +1,99 @@
+.service-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.service {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.service-icon-container {
+    width: 30%; /* Set the icon's container width */
+}
+
+.service-icon {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.service-content {
+    width: 70%; /* Right side content */
+    position: relative;
+}
+
+.service-content-text {
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5); /* Overlay to improve text visibility */
+    color: white;
+    z-index: 1;
+    position: relative;
+    height: 100%;
+}
+
+.service-content-text h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.service-content-text p {
+    font-size: 1rem;
+    color: white;
+    line-height: 1.6;
+}
+
+.service-content-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    /* background: url('path/to/your-full-image.jpg') no-repeat center center/cover; Full background image */
+    z-index: 0;
+    opacity: 0.7; /* Slight transparency for text readability */
+}
+
+.service:hover .service-icon {
+    transform: scale(1.1); /* Zoom effect on hover */
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .service-container {
+        padding: 0 15px; /* Add some padding for small screens */
+    }
+
+    .service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-icon-container {
+        width: 50%; /* Adjust icon size */
+    }
+
+    .service-icon {
+        width: 60%;
+    }
+
+    .service-content {
+        width: 100%;
+    }
+
+    .service-content-text {
+        padding: 20px;
+        text-align: center;
+    }
+
+    .service-content-image {
+        background-size: cover;
+    }
+}
