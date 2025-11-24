@@ -164,7 +164,7 @@ const Header = () => {
         </nav>
 
         <div style={rightIcons}>
-          <a href="tel:9773295609" aria-label="Call" style={{ textDecoration: "none", color: "inherit" }}>
+          <a href="tel:+917678667181" aria-label="Call" style={{ textDecoration: "none", color: "inherit" }}>
             <FaPhoneAlt style={phoneIcon} />
           </a>
 

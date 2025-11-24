@@ -13,7 +13,7 @@ import sm from "../Image/sm.jpg";
 import full from "../Image/full.jpg";
 
 const Course = () => {
-  const whatsappNumber = "9773295609";
+  const whatsappNumber = "+917678667181";
 
   const [win, setWin] = useState(window.innerWidth);
 

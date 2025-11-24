@@ -154,7 +154,8 @@ const Footer = () => {
         <div style={col}>
           <div style={headingStyle}>Contact</div>
           <div style={contactStyle}>📍 Noida Sector 3, 201301</div>
-          <div style={contactStyle}>📞 +91 9773295609</div>
+                        📞 <b>Phone:</b> ++917678667181, +91-9773295609
+          <div style={contactStyle}>📞 ++917678667181</div>
           <div style={contactStyle}>hr.fusiontraining@gmail.com</div>
 
           <div style={socialWrap} aria-label="Social links">

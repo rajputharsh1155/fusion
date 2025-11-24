@@ -139,7 +139,7 @@ const Contact = () => {
                         <br /><br />
                         📍 <b>Regd Office:</b> E-25 Ground Floor, Noida, U.P 201301
                         <br /><br />
-                        📞 <b>Phone:</b> +91-9773295609, +91-9773295609
+                        📞 <b>Phone:</b> +917678667181, +91-9773295609
                         <br /><br />
                         ✉️ <b>Email:</b> {" "}
                         <a href="hr.fusiontraining@gmail.com" style={{ color: "#007bff" }}>hr.fusiontraining@gmail.com</a>

@@ -10,7 +10,7 @@ const Register = () => {
   });
 
   // ---- CHANGE THIS NUMBER ----
-  const WHATSAPP_NUMBER = "919773295609";
+  const WHATSAPP_NUMBER = "+917678667181";
 
   const handleChange = (e) => {
     setFormData({

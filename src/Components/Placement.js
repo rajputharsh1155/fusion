@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 
 
 const Placement = () => {
-  const whatsappNumber = "9773295609";
+  const whatsappNumber = "+917678667181";
 
   const [win, setWin] = useState(
     typeof window !== "undefined" ? window.innerWidth : 1280
